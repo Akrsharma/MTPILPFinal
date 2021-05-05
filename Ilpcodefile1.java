@@ -226,14 +226,13 @@ class Ilpcodefile1 {
             double exec1 = 0, exec2 = 0;
             int taskno = 0, t, j = 0, i;
             //System.out.println(TI);
-            for(t=0; t<TI; t++);
+            for(t=0; t<TI; t++)
             {
                 //System.out.println(t + " " + TI);
                 int tmp = 0;
                 for(i=0; i<machines.size(); i++)
                 {
                     //int count = 0;
-
                     for(j = 0; j<tasks.size() && tasks.get(j).TI == t; j++)
                     {
                         //count++;
@@ -258,7 +257,8 @@ class Ilpcodefile1 {
                         }
                         
                     }
-                    fw.write(" <= "+ (tmp - (t-1)*TID) + ";\n");
+                    //fw.write(" <= "+ (tmp - (t)*TID) + ";\n");
+                    fw.write(" <= "+ "15" + ";\n");
                     //System.out.println(count);
 
                 }
