@@ -1,0 +1,11 @@
+import os
+os.system("lp_solve -S2 TaskILP11.lp > output1.txt")
+#os.system("lp_solve -S2 TaskILP12.lp > output2.txt")
+#os.system("lp_solve -S2 TaskILP13.lp > output3.txt")
+#os.system("lp_solve -S2 TaskILP14.lp > output4.txt")
+#os.system("lp_solve -S2 TaskILP15.lp > output5.txt")
+#os.system("lp_solve -S2 TaskILP16.lp > output6.txt")
+#os.system("lp_solve -S2 TaskILP17.lp > output7.txt")
+#os.system("lp_solve -S2 TaskILP18.lp > output8.txt")
+#os.system("lp_solve -S2 TaskILP19.lp > output9.txt")
+#os.system("lp_solve -S2 TaskILP110.lp > output10.txt")
